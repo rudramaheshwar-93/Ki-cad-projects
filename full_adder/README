@@ -1,0 +1,71 @@
+# ➕ Full Adder PCB Design
+
+## 📌 Overview
+
+This project implements a **Full Adder circuit** using discrete digital logic gates on a custom-designed PCB.
+
+A full adder performs binary addition of three inputs:
+
+* A
+* B
+* Carry-in (Cin)
+
+It produces:
+
+* Sum
+* Carry-out (Cout)
+
+---
+
+## ⚡ Key Specifications
+
+* Logic Gates Used: XOR, AND, OR
+* Function: Binary addition (combinational logic)
+* Layers: 2-layer PCB
+* Designed using: KiCad
+
+---
+
+## 🔧 Working Principle
+
+* **Sum = A ⊕ B ⊕ Cin**
+* **Carry = (A·B) + (Cin·(A ⊕ B))**
+
+This design demonstrates fundamental digital logic implementation on hardware.
+
+---
+
+## 📂 Files Included
+
+* `full_adder.kicad_sch` — Schematic file
+* `full_adder.kicad_pcb` — PCB layout file
+* `/gerber` — Manufacturing-ready files
+
+---
+
+## 🛠️ Tools Used
+
+* KiCad 7.0
+
+---
+
+## 🏭 Manufacturing
+
+The Gerber files are ready for fabrication using:
+
+* JLCPCB
+* PCBWay
+
+---
+
+## 📚 Learning Outcomes
+
+* Understanding combinational logic circuits
+* PCB design workflow using KiCad
+* Practical implementation of digital electronics
+
+---
+
+## 👤 Author
+
+**Chappidi Rudra Maheshwar Reddy**
