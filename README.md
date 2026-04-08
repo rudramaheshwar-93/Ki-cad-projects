@@ -1,29 +1,64 @@
-KiCad PCB Projects
-A collection of PCB designs created using KiCad.
-📁 Projects
-1. Buzzer PCB
+# 🧩 KiCad PCB Projects
 
-Simple buzzer driver circuit
-2-layer PCB
-View Project
+A curated collection of PCB designs created using **KiCad**, focused on digital and analog circuit implementations for learning and practical applications.
 
-2. Voltage Regulator PCB (5V to 3.3V)
+---
 
-LDO based 5V to 3.3V voltage regulation
-Designed for ESP32, STM32 and IoT applications
-2-layer PCB
-View Project
+## 📁 Projects
 
-3. Full Adder PCB
+### 🔔 Buzzer PCB
 
-Digital logic circuit implementing a full adder
-Combinational logic design using XOR, AND, OR gates
-2-layer PCB
-View Project
+* Simple buzzer driver circuit
+* Designed for controlled switching
+* 2-layer PCB
+  👉 *Includes schematic, PCB layout, and Gerber files*
 
-🛠️ Tools Used
+---
 
-KiCad 7.0
+### 🔌 Voltage Regulator PCB (5V → 3.3V)
 
-👤 Author
-Chappidi Rudra Maheshwar Reddy
+* LDO-based voltage regulation
+* Suitable for ESP32, STM32, and IoT applications
+* Stable and compact design
+* 2-layer PCB
+  👉 *Optimized for clean power delivery*
+
+---
+
+### ➕ Full Adder PCB
+
+* Digital logic implementation of a full adder
+* Uses XOR, AND, OR gates
+* Demonstrates combinational logic design
+* 2-layer PCB
+  👉 *Ideal for understanding basic digital circuits*
+
+---
+
+## 🛠️ Tools Used
+
+* KiCad 7.0
+
+---
+
+## 📦 Features
+
+* Clean and readable schematics
+* Well-routed PCB layouts
+* Manufacturing-ready Gerber files
+* Beginner-friendly designs
+
+---
+
+## 🏭 Manufacturing
+
+All projects include **Gerber files** that can be directly uploaded to:
+
+* JLCPCB
+* PCBWay
+
+---
+
+## 👤 Author
+
+**Chappidi Rudra Maheshwar Reddy**
